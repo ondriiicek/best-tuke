@@ -1,0 +1,93 @@
+@media ( max-width: 101.75em ){                 //1628px
+    .foto h1{ 
+        font-size: 2.8em;
+        width: 90%;
+    }
+}
+
+@media ( max-width: 85.6875em ){            //1371px
+    .blue-bg .articles h1{ width: 60%;}
+
+}
+
+@media (max-width: 63.125em ){               //1010px
+    .blue-bg .articles h1{ width: 70%; }
+}
+
+@media ( max-width: 53.625em){                       //858px
+    .blue-bg .articles h1{ 
+        width: 100%;
+        text-align: left;
+        border:none;
+    }
+}
+
+@media ( max-width: 49.5em){                //792
+    .foto h1{ font-size: 2.6em; }
+}
+
+@media ( max-width: 40.5625em ){            //649px
+    .foto h1{ font-size: 2.3em; }
+}
+
+@media( max-width: 37.6875em ){             //603px
+    .foto{
+        background-position-x: 25%;
+    }
+}
+
+@media (max-width: 35.4375em){              //567px
+    .foto .overlay-first{
+        h1{
+            font-size: 2em;
+        }
+    }
+}
+
+@media ( max-width: 32.5em ){               //520px
+    .foto .overlay-first{
+     
+        h1{
+            text-align: left;
+            padding: 0;
+            padding-top: 11em;
+            padding-left: .2em;
+            padding-bottom: .2em;
+            width: 100%;
+        }
+        
+    }
+}
+
+@media( max-width: 31.3125em ){              //501px
+    .foto{ background-position-x: 50%;}
+    .blue-bg .articles h1 { font-size: 2em; }
+}
+
+@media (max-width: 29.75em ){   //476
+    .foto .overlay-first{
+        h1{
+            font-size: 1.8em;
+        }
+    }
+
+    .library-photo .white-bg h2,
+    .library-photo .blue-bg h2{
+        font-size: 1.9em;
+        margin-top: 0;
+    }
+
+    .blue-bg,
+    .white-bg{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+
+@media( max-width: 27.125em){               //434px
+    .blue-bg .articles h1 { font-size: 1.8em; }
+}
+
+@media ( max-width: 23.9375em ){            //383px
+    .foto{ background-position-x: 40%;}
+}

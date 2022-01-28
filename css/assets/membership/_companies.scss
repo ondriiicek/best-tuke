@@ -1,0 +1,14 @@
+.companies-wrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr ;
+    background: #0f2f74;
+    @include membership-companies-settings;
+
+    .companies-bg{
+        background: {
+            image: url('../img/vector-background/companies-background.jpg');
+            size:cover;
+            position: center center;
+        }
+    }
+}

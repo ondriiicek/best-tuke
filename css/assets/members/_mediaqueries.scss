@@ -1,0 +1,45 @@
+@media (max-width: 73em){                   //1168px
+    .meet-the-team .container{ width: 95%;}
+}
+
+@media ( max-width:60.3125em ){                 //965
+    .meet-the-team h2{ font-size: 1.2em;}
+}
+
+@media ( max-width: 49.5em){                //792
+    .meet-the-team {
+        .team{ flex-basis: 49%; }
+        .clenovia{ 
+            width: 80%; 
+            margin: 0 auto;
+        }
+        img{
+            margin-bottom: 1em;
+        }
+    }
+}
+
+@media (max-width: 35.4375em){              //567px
+    .meet-the-team { margin-top: 4em; }
+
+}
+
+@media( max-width: 31.3125em ){              //501px
+    .meet-the-team{
+        .clenovia{
+            width: 97%;
+        }
+        h1{ font-size: 2.2em;}
+    }
+}
+
+@media( max-width: 27.125em){               //434px
+    .meet-the-team{
+        h1{ font-size: 1.9em; }
+        .team{ flex-basis: 100%;}
+    }
+}
+
+@media( max-width: 21.875em ){              //350px
+    .meet-the-team h1{ font-size: 1.7em; }
+}

@@ -1,0 +1,261 @@
+@media ( max-width: 100em ){                     //1600
+    .overlay{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 73em){                   //1168px
+    .index-about{
+        article{ 
+            padding: 4em 2em;
+        }
+    }
+}
+
+@media( max-width: 67.3125em ){             //1077px
+    .overlay{
+        .uvod-bg{
+            width: 40%;
+            padding: 2em .5em;
+        }
+
+        p{ font-size: 1em;}
+
+        .right-color-line{
+            margin-right: 11em;
+        }
+            
+        .left-color-line{
+            margin-left: 11em;
+        }
+
+        .left{
+            margin-left: 10em;
+        }
+            
+        .right{
+            margin-right: 10em;
+        }
+    }
+}
+
+@media( max-width: 63.375em ){                 //1046px
+    .index-courses{
+        aside{
+            h2{ border: none;}
+        }
+    }
+}
+
+@media (max-width: 63.125em ){               //1010px
+    .index-about{
+        aside h2{ border: none;}
+        article{ 
+            padding: 3em 1em;
+
+            p{
+                font-size: .9em;
+            }
+            a{
+                font-size: .95em;
+            }
+        }
+    }
+}
+
+@media( max-width: 57.75em ){                   //924px   
+    .index-courses{
+        aside{
+            h2{ font-size: 1.3em;}
+        }
+    }
+}
+
+@media ( max-width: 50.9375em ){        //815
+    .index-about{
+        article{ 
+            padding: 2em 1em;
+        }
+    }
+}
+
+@media ( max-width: 49.5em){                //792
+    .overlay{
+        .uvod-bg{
+            width: 50%;
+            padding: 2em .5em;
+        }
+
+        p{ font-size: .95em;}
+
+        .right-color-line{
+            margin-right: 8em;
+        }
+            
+        .left-color-line{
+            margin-left: 7.5em;
+        }
+
+        .left{
+            margin-left: 4em;
+        }
+            
+        .right{
+            margin-right: 4em;
+        }
+    }
+
+    .index-courses{
+        grid: none;
+        margin-top: 3em;
+        aside{
+            background: none;
+            h2{ 
+                color: #454545;
+                font-weight: 500;
+                font-size: 1.8em;
+            }
+        }
+        
+        .index-posters{
+            margin-left: 0;
+            
+            img{
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+@media ( max-width: 44.625em ){             //714px
+    .overlay{
+        background-attachment: unset;
+    }
+
+    .index-about{
+        grid-template-columns: 1fr 1fr;
+        aside{ display: none;}
+    }
+}
+
+@media( max-width: 37.6875em ){             //603px
+    .overlay{
+
+        .article-container
+        
+        .uvod-bg{
+            width: 21.375em;
+            padding: 2em .5em;
+        }
+
+        p{ font-size: 1em;}
+
+        .right-color-line,
+        .left-color-line{
+            width: 5.4375em;
+        }
+        .right-color-line{
+            margin-right: 11em;
+            position: relative;
+            left: 95px;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+            
+        .left-color-line{
+            position: relative;
+            left: -95px;
+            margin-left: 50%;
+            margin-right: 50%;
+
+        }
+
+        .left{
+            margin: 0 auto;
+        }
+            
+        .right{
+            margin: 0 auto;
+        }
+    }
+
+    .index-courses{
+        .index-posters{
+            grid: none;
+            gap: 0;
+
+            img:nth-child(odd){
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+
+            img:nth-child(even){
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 35.4375em){              //567px
+    .overlay:nth-child(3){
+        background-position-x: 20%;
+    }
+}
+
+@media ( max-width: 32.5em ){               //520px
+    .index-courses{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 29.75em ){   //476
+    .overlay{
+        
+        .uvod-bg{
+            width: 85%;
+            padding: 2em .5em;
+        }
+
+        .left-color-line{
+            position: relative;
+            left: -102px;
+            margin-right: 50%;
+            margin-left: 50%;
+            padding: 3em 0;
+        }
+
+        .right-color-line{
+            position: relative;
+            left: 102px;
+            margin-right: 50%;
+            margin-left: 50%;
+            padding: 3em 0;
+        }
+    }
+}
+
+@media ( max-width: 32.5em ){               //520px
+    .index-about{
+        grid: none;
+
+        article:nth-child(3),
+        article:nth-child(4),
+        article:nth-child(7){
+            display: none;
+        }
+
+        article{
+            border-bottom: 1px solid lighten( #454545, 50%);
+        }
+        article:nth-child(6){ border-bottom: none;}
+    }
+
+    
+}
+
+@media( max-width: 27.125em){               //434px
+    .overlay:nth-child(3){
+        background-position-x: 30%;
+    }
+}

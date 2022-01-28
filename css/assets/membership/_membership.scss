@@ -1,0 +1,14 @@
+.membership-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background: #7eb8e1;
+    @include membership-companies-settings;
+
+    .membership-bg{
+        background: {
+            image: url('../img/vector-background/membership-background.jpg');
+            size:cover;
+            position: center center;
+        }
+    }
+}

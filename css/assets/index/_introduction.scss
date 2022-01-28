@@ -1,0 +1,77 @@
+.overlay{
+    background-position: center center;
+    background-size: cover;
+    border-bottom: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    background-attachment: fixed;
+
+    &:last-child{ border-bottom: none;}
+
+    &:nth-child(1){
+        background: {
+        image: url('../img/vector-background/univerzita.jpg');
+        position-y: 80%;
+    }
+        align-items: flex-start;
+    }
+    
+    &:nth-child(2){
+    background: {
+        image: url('../img/vector-background/students.jpg');
+        position-y: 95%;
+    }
+        align-items: flex-end;
+    }
+    
+    &:nth-child(3){
+    background: {
+        image: url('../img/vector-background/companies.jpg');
+    }
+        align-items: flex-start;
+    }
+
+    .uvod-bg{
+    width: 30%;
+    text-align: center;
+    line-height: 1.5em;
+    background: rgba( 0,0,0,.7);
+    color: #fff;
+    padding: 3em 1.2em;
+    border-radius: 7px;
+
+    p{ font-size: 1.0625em;}
+
+    h2{
+        font-size: 2em;
+        font-weight: 500;
+        margin-bottom: 1em;
+    }
+    
+    }
+
+    .right-color-line,
+    .left-color-line{
+        width: 15%;
+        padding: 2em 0;
+    }
+
+    .right-color-line{
+        border-left: 3px solid #000;
+        margin-right: 10em;
+    }
+
+    .left-color-line{
+        border-right: 3px solid #000;
+        margin-left: 10em;
+    }
+
+    .left{
+        margin-left: 12em;
+    }
+
+    .right{
+        margin-right: 12em;
+    }
+}

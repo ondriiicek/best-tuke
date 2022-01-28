@@ -1,0 +1,76 @@
+@import './partials-scss/mediaqueries-header';
+
+@import './about/mediaqueries';
+@import './contact/mediaqueries';
+@import './courses/mediaqueries';
+@import './index/mediaqueries';
+@import './members/mediaqueries';
+@import './membership/mediaqueries';
+
+@import './partials-scss/mediaqueries-footer';
+
+@media ( max-width: 96.875em ){                 //1550px
+    .articles{ 
+        h1{ width: 50%;}
+    }
+}
+
+@media( max-width: 75.25em ){               //1204px
+    .novinky h1{ font-size: 2em;}
+}
+
+@media (max-width: 73em){                   //1168px
+    .container{
+        width: 80%;
+    }
+    .articles{ margin-right: 0; }
+}
+
+@media (max-width: 63.125em ){               //1010px
+    .articles h1{ width: 60%; }
+}
+
+@media ( max-width: 53.625em){                       //858px
+    .articles h1{ 
+        width: 100%; 
+        text-align: left;
+        border: none;
+        margin-bottom: 0;
+        
+    }
+
+    .articles{
+        text-align: left;
+        h1{
+            margin-top: -1em; 
+        }
+    }
+}
+
+    
+@media ( max-width: 40.5625em ){            //649px
+    .articles{
+        padding-top: 5em ;
+        padding-bottom: 5em;
+        h1{ margin-bottom: 0; }
+    }
+}
+
+@media (max-width: 35.4375em){              //567px
+    .container{ width: 90%; }    
+}
+
+@media ( max-width: 32.5em ){               //520px
+    .articles{
+        article:last-child{ padding-bottom: 0;}
+    }
+}
+
+@media( max-width: 31.3125em ){              //501px
+    .articles h1{ font-size: 2em; }
+}
+
+
+
+
+

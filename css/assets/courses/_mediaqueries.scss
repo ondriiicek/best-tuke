@@ -1,0 +1,98 @@
+@media (max-width: 73em){                   //1168px
+    .courses-container{
+        width: 90%;
+    }
+
+    .questions{ width: 85%; }
+}
+
+@media( max-width: 63.375em ){                 //1046px
+    .questions{ width: 90%; }
+}
+
+@media (max-width: 63.125em ){               //1010px
+    .courses-wrapper{
+        display: block;
+    }
+
+    .about-course h1{ font-size: 1.9em;}
+
+    .list-of-courses{
+        display: grid;
+        width: 80%;
+        margin: 3em auto 0 auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+        .course-list-card{
+            margin-top: 0;
+            
+        }
+    }
+}
+
+@media ( max-width: 53.625em){                       //858px
+    .list-of-courses{
+        width: 100%;
+    }
+}
+
+@media ( max-width: 49.5em){                //792
+    .questions h1{ font-size: 2em; }
+    .questions { 
+        width: 90%; 
+        .fas{
+            font-size: 1.3em;
+            margin-right: 0;
+            margin-left: .5em;
+        }
+    }
+}
+
+@media ( max-width: 44.625em ){             //714px
+    .list-of-courses{
+        width: 80%;
+        display: block;
+        .course-list-card{
+            margin-top: 2em;
+        }
+        .course-list-card:first-child{
+            margin-top: 0;
+        }
+    }
+}
+
+@media ( max-width: 32.5em ){               //520px
+    .courses-wrapper{
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+
+    .list-of-courses{ 
+        width: 100%;
+        font-size: 90%;
+    }
+
+    .questions{ width: 100%; }
+}
+
+@media( max-width: 31.3125em ){              //501px
+    .courses-container{ width: 95%; }
+
+    .about-course{
+        font-size: 0.9em;
+        flex-basis: 100%;
+        .color-line{ width: 15%;}
+    }
+}
+
+@media( max-width: 27.125em){               //434px
+    .questions h1{ font-size: 1.7em; }
+}
+
+@media ( max-width: 23.9375em ){            //383px
+    .questions{ 
+        font-size: 85%; 
+        line-height: 1.5em;
+        letter-spacing: 1px;
+    }
+}

@@ -1,0 +1,38 @@
+.articles{
+    
+    padding-top: 5em ;
+    padding-bottom: 9em;
+    text-align: center;
+    
+    p{
+        padding-top: 1.8em;
+        line-height: 1.4em;
+        font-size: .98em;
+        
+    }
+    h1{
+        @include some-of-h1-settings;
+        margin-bottom: .8em;
+        width: 35%;
+    }
+    h2{
+        font-weight: 400;
+        margin-bottom: .5em;
+        margin-top: 2em;
+    }
+
+    li{ 
+        font-size: .95em; 
+        line-height: 1.4em;
+        padding-bottom: .5em;
+    }
+}
+
+
+
+
+
+
+
+
+

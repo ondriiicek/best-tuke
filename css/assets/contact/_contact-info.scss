@@ -1,0 +1,63 @@
+.c-contact{
+    text-align: center;
+
+    h1{
+        padding-top: 1.5em;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 300;
+        font-size: 3.5em;
+        text-transform: uppercase;
+    }
+
+    h2{
+        font-weight: 300;
+        font-size: 1.2em;
+        color: darken( $contact-iconsC-borderC, 40%);
+        margin-bottom: 6em;
+        
+    }
+
+    h3{
+        margin-top: 3em;
+        margin-bottom: .4em;
+        color: #f1957a;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    span{ 
+        color: darken( $contact-iconsC-borderC, 40%);
+        text-decoration: underline;
+        font-weight: 300;
+    }
+}
+
+.c-links{ 
+    display: flex; 
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-bottom: 10em;
+}
+.c-icons{
+    small{
+        margin-top: 1em;
+        color: darken( $contact-iconsC-borderC, 40%)
+    }
+    i{
+        font-size: 3em;
+        color: darken( $contact-iconsC-borderC, 10% );
+        background: #fff;
+        padding: {
+            top: .7em;
+            bottom: .4em;
+            right: .7em;
+            left: .7em;
+        }
+        border: 2px solid $contact-iconsC-borderC;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+ 
+}

@@ -1,0 +1,106 @@
+.cards-wrapper{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr 1.5fr;
+    gap: 2em;
+    width: 90%;
+    max-width: 125em;
+    margin: 7em auto;
+
+    .clenstvo-info{
+        background: #1e3d59;
+        color: #fff;
+        padding-bottom: 6em;
+        padding-right: 1em;
+        padding-left: 1em;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        border-radius: 7px;
+        text-align: center;
+        
+        ul{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5em;
+            flex-wrap: wrap;
+        }
+    
+        li{
+            flex-basis: 49%;
+            text-align: center;
+            &:nth-child(1),
+            &:nth-child(2){
+                margin-bottom: 4em;
+            }
+            font-size: 1em;
+        }
+        i{
+            display: block;
+            font-size: 4em;
+            padding-bottom: .2em;
+            color: $companies-icons-color;
+        }
+    }
+
+    .co-ponukame{
+        text-align: center;
+        border-radius: 5px;
+        padding-left: .5em;
+        padding-right: .5em;
+        color: $companies-color;    
+        h1{
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+        
+        i{
+            display: block;
+            font-size: 4em;
+            margin-bottom: .7em;
+            color: $companies-icons-color;
+            padding-top: .3em;
+        }
+    
+        .flaticon-cooperate,
+        .flaticon-share{
+            margin-bottom: 0;
+        }
+    
+        li{
+            color: #000;
+            background: #FFE14A;
+            flex-basis: 30%;
+            border-radius: 7px;
+            padding: {
+                top: 2em;
+                bottom: 2em;
+                right: .5em;
+                left: .5em;
+            }
+        }
+
+        @each $name, $hex in $membership-cards{
+            &:nth-child(#{$name}){
+                background: $hex;
+            }
+        }
+
+        &:nth-child(2){
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+    
+        &:nth-child(3),
+        &:nth-child(4){
+            grid-row-start: 2;
+            grid-row-end: 4;
+            display: grid;
+            padding-left: .5em;
+            padding-right: .5em;
+            p{
+                align-self: end;
+                padding-bottom: 1em;
+            }
+        }
+    }
+}

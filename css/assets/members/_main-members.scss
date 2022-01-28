@@ -1,0 +1,73 @@
+.meet-the-team{
+    margin-top: 6em;
+    margin-bottom: 6em;
+    text-align: center;
+    
+    .clenovia-bg{
+        background-color: #00a588;
+        box-shadow: 5px 4px 15px -7px rgba(0,0,0,0.78);
+    }
+
+    
+
+    .clenovia{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-radius: 7px;
+        margin-bottom: 6em;
+        color: #fff;
+        h1{
+            flex-basis: 100%;
+            margin-bottom: -.1em;
+            margin-top: 1em;
+            font-size: 2em;
+            font-weight: 300;
+            color: #000;
+        }
+
+        .vedenie{ color: #fff;}
+        
+        ul{
+            margin: 0 auto;
+            margin-top: 5em;
+            li{
+                display: inline-block;
+                margin-right: 2em;
+                margin-bottom: 1em;
+                padding: 1em;
+                color: #000;
+            }
+        }
+    }
+
+    img{
+        border-radius: 50%;
+        margin-bottom: 3em;
+        
+    }
+
+    
+    h2{
+        font-weight: 300;
+        margin-bottom: .2em;
+    }
+    h1{
+        
+        font-weight: 300;
+        margin-bottom: 2em;
+        text-transform: capitalize;
+        font-size: 2.6em;
+    }
+
+    .team{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-right: .2em;
+        flex-basis: 24%;
+        &:last-child{margin-right: 0;}
+        
+    }
+    
+    
+}

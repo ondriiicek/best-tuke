@@ -1,0 +1,9 @@
+@import './introduction';
+@import './partners';
+@import './about';
+@import './courses';
+
+.on{
+    background: rgba(0,0,0,.6);
+    transition: background 500ms linear;
+}

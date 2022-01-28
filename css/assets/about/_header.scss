@@ -1,0 +1,28 @@
+.foto{
+    background: {
+        image: url('../img/foto-about.jpg');
+        size: cover;
+        position: center center;
+        
+        repeat: no-repeat;
+    };
+   
+    
+    .overlay-first{ 
+        background:  $overlay; 
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+    }
+
+    h1{ 
+        padding: 7em 0;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+        font-weight: 300;
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+
+}

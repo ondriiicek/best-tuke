@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?22f824a65e6020854f439a0d3f58089a") format("truetype"),
+url("./flaticon.woff?22f824a65e6020854f439a0d3f58089a") format("woff"),
+url("./flaticon.woff2?22f824a65e6020854f439a0d3f58089a") format("woff2"),
+url("./flaticon.eot?22f824a65e6020854f439a0d3f58089a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?22f824a65e6020854f439a0d3f58089a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "women": "\f101",
+    "smartphone": "\f102",
+    "mail": "\f103",
+    "facebook": "\f104",
+    "cooperate": "\f105",
+    "enterprise": "\f106",
+    "share": "\f107",
+    "pin": "\f108",
+    "telephone": "\f109",
+    "instagram": "\f10a",
+    "cooperation": "\f10b",
+    "management": "\f10c",
+    "education": "\f10d",
+);
+
+.flaticon-women:before {
+    content: map-get($flaticon-map, "women");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-cooperate:before {
+    content: map-get($flaticon-map, "cooperate");
+}
+.flaticon-enterprise:before {
+    content: map-get($flaticon-map, "enterprise");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-cooperation:before {
+    content: map-get($flaticon-map, "cooperation");
+}
+.flaticon-management:before {
+    content: map-get($flaticon-map, "management");
+}
+.flaticon-education:before {
+    content: map-get($flaticon-map, "education");
+}

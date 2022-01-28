@@ -1,0 +1,66 @@
+.c-address{
+    
+    h2{ 
+        font-size: 1.5em; 
+        margin: 0 auto;
+        width: 15%;
+        border-top: 1px solid $contact-iconsC-borderC;
+        line-height: 3em;
+        text-transform: uppercase;
+        font-weight: 300;
+        padding-bottom: 2em;
+    }
+
+   
+
+    #gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+        margin-bottom: 6em;
+        border-radius: 7px;
+        border: 1.5px solid $contact-iconsC-borderC;
+        box-shadow: 5px 5px 10px #ccc;
+    }
+    
+    .address-info{
+        
+        
+        margin: 0 auto;
+        margin-bottom: 13em;
+        border-bottom: 1px solid $contact-iconsC-borderC;
+        span{ 
+            display: block;
+            text-decoration: none;
+            font-size: .9em;
+            &:last-child{ margin-bottom: 2em;}
+        }
+
+        i{
+            font-size: 3em;
+            color: darken( $contact-iconsC-borderC, 10%);
+            background: #fff;
+            padding: {
+                top: .7em;
+                bottom: .4em;
+                right: .7em;
+                left: .7em;
+            }
+            border: 2px solid $contact-iconsC-borderC;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+
+    .mapouter{
+        flex-basis: 48%;
+    }
+}

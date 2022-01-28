@@ -1,0 +1,68 @@
+footer{
+    margin-top: auto;
+}
+
+.prefooter-bg{
+    background: $header-footer-bg;
+    
+}
+
+.prefooter{
+    padding: 2em 0;
+    color: $nav-link-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 90%;
+
+    a{ 
+        color: $nav-link-color;
+        display: block;
+        
+    }
+    ul,a{ margin-bottom: 1em; }
+    h1{ 
+        font: {
+            size: 1.6em;
+            weight: normal;
+        }  
+        margin-bottom: 1em;
+        text-transform: uppercase;
+        
+    }
+    i{ 
+        
+        padding-right: .4em; 
+    }
+   
+    .social{
+        text-align: center;
+        
+    }
+    
+    .fb,
+    .ig{
+        font-size: 2.2em;
+        display: inline-block;
+    }
+
+    
+    
+    
+}
+
+
+
+.postfooter{
+    background: #191919;
+    font-size: .7em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: {
+        top: 1em;
+        bottom: 1em;
+    }
+    a{ color: #fff; }
+}
+

@@ -1,0 +1,14 @@
+@media (max-width: 63.125em ){               //1010px
+    .fa-bars{ display: block; }
+    .navigation li{ display: none; }
+}
+
+@media (max-width: 35.4375em){              //567px
+    .logo{ width: 150px; }
+    .fa-bars{ padding-top: 1.16em; }
+}
+
+@media( max-width: 27.125em){               //434px
+    .logo{ width: 120px ;}
+    .fa-bars{ padding-top: 1em; }
+}

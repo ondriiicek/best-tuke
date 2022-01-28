@@ -1,0 +1,80 @@
+.index-about{
+    display: grid;
+    grid-template-columns: .7fr 1fr 1fr;
+    color: #454545;
+    h3{
+        width: 20%;
+        border-top: 3px solid red;
+        border-radius: 5px;
+        margin-bottom: .5em;
+    }
+    article{
+        padding: 6em 4em;
+        p{
+            font-size: 0.98em;
+            word-spacing: .2em;
+            margin-bottom: .5em;
+        }
+        
+    }
+    aside{ 
+        background: #ebf4fb;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+        
+            border: 4px solid #454545;
+            padding: {
+                top: 1.2em;
+                right: 1.9em;
+                bottom: 1.2em;
+                left: 1.9em;
+            }
+            margin-bottom: 2em;
+        }
+
+        a{
+            background:  #454545;
+            color: darken(#fff, 10%);
+            padding: 1em 1em;
+            border-radius: 4px;
+            transition: background .3s linear;
+        }
+
+        a:hover,
+        a:active{
+            background: darken( #454545, 10%);
+        }
+    }
+    
+    article:nth-child(3){
+        background: {
+            
+            image: url('../img/index-about1.jpg');
+            size: cover;
+            
+        }
+    }
+    article:nth-child(4){ 
+        background: {
+            
+            image: url('../img/index-apri-till.jpg');
+            size: cover;
+            position-y: 40%;
+        }
+    }
+    article:nth-child(7){
+        background: {
+            
+            image: url('../img/BEST-z-ludi.jpg');
+            size: cover;
+            position-y: 60%;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@media ( max-width: 63.3125em ){            ///1013px
+    .prefooter{
+        flex-wrap: wrap;
+    }
+}
+
+@media ( max-width: 49.5em){                //792
+    .prefooter{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 4em;
+        section{
+            width: 25em;
+            border-bottom: .5px solid #ccc;
+            margin-top: 2em;
+            
+            .address{ 
+                margin-top: 0; 
+                
+            }
+            .fb, .ig{
+                margin-bottom: .5em;
+            }
+            h1{ margin-top: -.5em; }
+        }
+
+        .contact{ 
+            border-bottom: none; 
+            margin-bottom: 0;
+        }
+        
+    }
+}
+
+@media ( max-width: 32.5em ){               //520px
+    .prefooter section{ width: 95%;}
+}

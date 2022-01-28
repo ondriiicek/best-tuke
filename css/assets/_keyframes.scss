@@ -1,0 +1,142 @@
+.showMenu{
+    
+    text-align: center;
+    animation: showMenu .5s linear;
+   
+    padding-top: 8em;
+    
+
+    li{
+        display: block;
+        margin-left: 0;
+        margin-bottom: 1em;
+        &:last-child{
+            padding-bottom: 3em;
+        }
+    }
+
+    .submenu{
+        width: 100%;
+        position: static;
+        margin: 0;
+        padding-top: .7em;
+        padding-bottom: 1em;
+        display: flex;
+        justify-content: center;
+        
+        li{
+            display: block;
+            margin-bottom: 0;
+            text-align: center;
+            padding: 0;
+            padding-top: .6em;
+        }
+        a{
+            color: #fff;
+        }
+
+    }
+}
+
+.contactLinksColor{
+    span{ 
+        color: darken(lightblue, 10%); 
+        transition: color .4s linear;
+    }
+
+    i{ 
+        background: #b4b4b4;
+        color: #fff;
+        transition: background .4s linear; 
+    }
+}
+.slideRight{
+    animation: slideRight .8s linear ;
+}
+
+.slideLeft{
+    animation: slideLeft .8s linear;
+}
+
+.shakeBaby{
+    
+    animation: shakingLink .4s linear;  
+}
+
+.wave{
+    animation: waving 1s linear;
+}
+
+.arrowUpDown{
+    animation: arrowUpDown 1s linear;
+}
+
+@keyframes showMenu{
+    0%{ opacity: 0.1; }
+    30%{ opacity: .3; }
+    60%{ opacity: 0.6; }
+    100%{ opacity: 1; }
+}
+
+@keyframes slideRight{
+    0%{ 
+        opacity: 0.2; 
+        transform: translateX(2000px);
+    }
+
+    30%{
+        opacity: .3;
+        transform: translateX(500px);
+    }
+
+    70%{
+        opacity: .7;
+        transform: translateX(100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideLeft{
+    0%{ 
+        opacity: 0; 
+        transform: translateX(-2000px);
+    }
+
+    30%{
+        opacity: .3;
+        transform: translateX(-500px);
+    }
+
+    70%{
+        opacity: .7;
+        transform: translateX(-100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes shakingLink{
+    0%{ transform: translateX(-4px); }
+    20%{ transform: translateX(4px); }
+    40%{ transform: translateX(-4px); }
+    60%{ transform: translateX(4px); }
+    80%{ transform: translateX(-4px); }
+    100%{ transform: translateX(0); }
+}
+
+@keyframes arrowUpDown{
+    0%{ transform: translateY(-5px); }
+    20%{ transform: translateY(5px); }
+    40%{ transform: translateY(-5px); }
+    60%{ transform: translateY(5px); }
+    80%{ transform: translateY(-5px); }
+    100%{ transform: translateY(0); }
+}
+

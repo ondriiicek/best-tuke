@@ -1,0 +1,19 @@
+@import './about-course';
+@import './list-of-courses';
+@import './questions';
+
+.courses-container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 2000px;
+}
+.courses-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+
+
